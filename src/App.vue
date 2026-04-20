@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import AppHeader from './components/AppHeader.vue'
+</script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <div class="w-4/5 h-screen mt-14 mx-auto bg-white rounded-xl shadow-xl">
+    <AppHeader />
+  </div>
 </template>
-
-<style scoped></style>
