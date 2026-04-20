@@ -1,9 +1,16 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue'
+import CardList from './components/CardList.vue'
 </script>
 
 <template>
-  <div class="w-4/5 h-screen mt-14 mx-auto bg-white rounded-xl shadow-xl">
+  <main class="w-4/5 my-20 mx-auto bg-white rounded-2xl shadow-xl pb-10">
     <AppHeader />
-  </div>
+
+    <section class="p-10">
+      <h2 class="text-3xl font-bold mb-10">Все кроссовки</h2>
+
+      <CardList />
+    </section>
+  </main>
 </template>
