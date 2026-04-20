@@ -1,11 +1,11 @@
 <script setup>
-import AppDrawer from './components/Cart/AppDrawer.vue'
+// import AppDrawer from './components/Cart/AppDrawer.vue'
 import AppHeader from './components/AppHeader.vue'
 import CardList from './components/CardList.vue'
 </script>
 
 <template>
-  <AppDrawer />
+  <!-- <AppDrawer /> -->
 
   <main class="w-4/5 my-20 mx-auto bg-white rounded-2xl shadow-xl pb-10">
     <AppHeader />
