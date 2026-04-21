@@ -1,6 +1,6 @@
 <script setup>
 // import AppDrawer from './components/Cart/AppDrawer.vue'
-import AppHeader from './components/IconAppHeader.vue'
+import AppHeader from './components/AppHeader.vue'
 import CardList from './components/CardList.vue'
 </script>
 
